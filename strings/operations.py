@@ -35,3 +35,8 @@ print(backwards)
 backwards = alphabets[::-3]
 print(backwards)
 
+# Assignment
+# Write 10 string examples
+# print out each string example written above
+# use string operations to concatenante all the strings in one gaint string
+# create one variable for each to hold all the strings above backwards
