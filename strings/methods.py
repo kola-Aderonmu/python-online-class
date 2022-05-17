@@ -46,3 +46,59 @@ fruit = 'banana'
 
 # Assignment:
 # List all the string methods with examples. Your code should be written from line 49.
+
+
+"""
+.upper()
+cars = 'lexus'
+print(cars.upper())
+
+.isalnum()
+cars = 'lexus'
+print(cars.isalnum())
+
+.islower()
+cars = 'lexus'
+
+.isprintable()
+cars.isprintable()
+
+.isupper()
+cars.isuper()
+
+.partition()
+cars = 'lexus is a nice car'
+x = cars.partition('nice')
+print(x)
+
+.replace()
+cars = 'lexus is a nice car'
+cars.replace('lexus', 'Toyota')
+
+.rfind()   show the index of the last occurence
+cars = 'lexus is luxury'
+cars.rfind('is')
+
+.startwith()
+cars = 'lexus'
+
+cars.startwith('L) >>>False
+    
+  .title()  
+txt = 'I am a boy'
+txt.title()
+
+.ljust()
+x = 'food'
+x.ljust(10)
+
+
+.splitlines() >>split items in a list
+x = "we are going to school"
+x.splitlines()
+
+.zfill()
+x = 'gun'
+x.zfill(10) >>it fill the index to 10
+"""
+
