@@ -40,3 +40,31 @@ print(backwards)
 # print out each string example written above
 # use string operations to concatenante all the strings in one gaint string
 # create one variable for each to hold all the strings above backwards
+
+#################################
+'A', 'boy', 'is', 'going,' 'to', 'be', 'late', 'by', '10am', 'today'
+
+###############################################################
+print('A')
+print('boy')
+print('is')
+print('going')
+print('to')
+print('be')
+print('late')
+print('by')
+print('10am')
+print('today')
+####################################################concatentate
+sentence = ('A '  + 'boy ' + 'is ' + 'going ' + 'to ' + 'be ' + 'late ' + 'by ' + '10am ' + 'today ')
+print(sentence)
+
+###################################################################hold strings backwards
+test = sentence[: : -1]
+print(test)
+
+#############################reversed using join
+test1 = sentence
+revs = "".join(reversed(test1))
+print(revs)
+
