@@ -98,9 +98,10 @@ x = "we are going to school"
 x.splitlines()
 
 .zfill()
-x = 'gun'
+x = 'gun'#
 x.zfill(10) >>it fill the index to 10
 
 
 """
+######
 
