@@ -46,3 +46,12 @@ fruit = 'banana'
 
 # Assignment:
 # List all the string methods with examples. Your code should be written from line 49.
+
+# Reverse a string by words not by character
+
+sentence = "A boy is going to be late today at 10am"
+
+sentence = sentence.split()
+sentence.reverse()
+sentence = " ".join(sentence)
+print(sentence)
